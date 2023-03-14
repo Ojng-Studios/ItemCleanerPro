@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "0",
+    "keyBindingName": "Item Cleaner",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "ItclCommandExecuted"
+    }
+  }
+}

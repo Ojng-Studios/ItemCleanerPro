@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "1",
+    "keyBindingName": "Entity Cleaner",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "EntitycleanerOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ItclCommandExecuted",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "itcl_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Itcl",
+      "type": "command",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "itcl"
+    },
+    {
+      "name": "Itemcleaner",
+      "type": "keybind",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "itemcleaner"
+    },
+    {
+      "name": "EntitycleanerOnKeyPressed",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entitycleaner_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Entitycleaner",
+      "type": "keybind",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entitycleaner"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "key.mcreator.entitycleaner": "Entity Cleaner",
+      "key.mcreator.itemcleaner": "Item Cleaner"
+    },
+    "zh_cn": {
+      "key.mcreator.entitycleaner": "清除实体",
+      "key.mcreator.itemcleaner": "清理掉落物"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "icp",
+    "modName": "ItemCleanerPro",
+    "version": "0.0.1",
+    "description": "A Minecraft Mod That Allows You To Clean Up Items On The Ground More Quickly.",
+    "author": "BunnimimiTotem",
+    "websiteURL": "https://github.com/Ojng-Studios/ItemCleanerPro",
+    "license": "DPTDPL",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Ojng Studios, MCreator",
+    "modElementsPackage": "io.github.busituteng.icp",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
